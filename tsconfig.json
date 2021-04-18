@@ -3,7 +3,10 @@
         "./src/**/*"
     ],
     "compilerOptions": {
-        // "strict": true,
+        // 厳し目の設定が定義するかしないか
+        "strict": true,
+        //暗黙でanyを使えるようにする
+        "noImplicitAny": false,
         "esModuleInterop": true,
         "lib": [
             "dom",
